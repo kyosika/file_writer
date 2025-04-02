@@ -12,7 +12,7 @@ int main()
     getline(std::cin, fileName);
     std::cout << "Enter a file extension please: " << std::endl;
     std::cin >> extension;
-    std::cout<<"Tell me how many times to write a file please (Non text formats may not work): \n";
+    std::cout<<"Tell me how many times to write a file please (Non text formats may not work, also a . is not required and may cause errors.): \n";
     std::cin >> fileTimes;
     std::cout << "Tell me what you want to write to the file please: " << std::endl;
     std::cin.ignore();
