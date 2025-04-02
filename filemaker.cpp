@@ -14,7 +14,7 @@ int main()
     std::cin >> extension;
     std::cout<<"Tell me how many times to write a file please (Non text formats may not work, also a . is not required and may cause errors.): \n";
     std::cin >> fileTimes;
-    std::cout << "Tell me what you want to write to the file please: " << std::endl;
+    std::cout << "Tell me what you want to write to the file please (Like the text that is put onto the file): " << std::endl;
     std::cin.ignore();
     getline(std::cin, writing);
     for(int i = 0; i < fileTimes; i++){
